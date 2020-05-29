@@ -24,13 +24,21 @@ interface StyledProjectMetaProps {
   isIntersected?: boolean;
 }
 
-export const IntersectionTarget = styled.div``;
+export const IntersectionTarget = styled.div`
+  max-width: ${PROJECT_DETAIL_MAX_WIDTH}rem;
+  width: 100%;
+
+  @media only screen and (min-width: ${SCREEN_WIDTH.MOBILE}px) {
+    padding: 3rem;
+  }
+`;
 
 export const ProjectMetaRoot = styled.div<StyledProjectMetaProps>`
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  width: 100%;
   color: #efedef;
   font-family: "NanumSquare", sans-serif;
   padding: 2rem;
@@ -42,11 +50,6 @@ export const ProjectMetaRoot = styled.div<StyledProjectMetaProps>`
           ${bounce} ease-in-out 1.8s;
         `
       : ""};
-
-  @media only screen and (min-width: ${SCREEN_WIDTH.MOBILE}px) {
-    max-width: ${PROJECT_DETAIL_MAX_WIDTH}rem;
-    padding: 3rem;
-  }
 `;
 
 export const ProjectTitle = styled.div`

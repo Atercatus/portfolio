@@ -25,13 +25,13 @@ interface StyledProjectDetailCardProps {
 }
 
 export const IntersectionTarget = styled.div`
+  max-width: ${PROJECT_DETAIL_MAX_WIDTH}rem;
   margin: 0 0 15rem 0;
   z-index: 1;
 `;
 
 export const ProjectDetailCardRoot = styled.div<StyledProjectDetailCardProps>`
   font-family: "NanumSquare", sans-serif;
-  max-width: ${PROJECT_DETAIL_MAX_WIDTH}rem;
   padding: 2rem 1rem;
   background: linear-gradient(
       180deg,
