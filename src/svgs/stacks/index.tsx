@@ -8,6 +8,7 @@ import NextSVG from "./next";
 import PythonSVG from "./python";
 import TypescriptSVG from "./typescript";
 import VercelSVG from "./vercel";
+import ReactSVG from "./react";
 
 export const STACK_MAP: {
   [key: string]: FunctionComponentElement<SVGElement>;
@@ -21,4 +22,5 @@ export const STACK_MAP: {
   PYTHON: <PythonSVG />,
   TYPESCRIPT: <TypescriptSVG />,
   VERCEL: <VercelSVG />,
+  REACT: <ReactSVG />,
 };

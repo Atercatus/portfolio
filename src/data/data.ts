@@ -84,7 +84,7 @@ export const PROJECT_DATA: ProjectData = {
           {
             NAME: "JWT에 대한 고찰",
             LINK:
-              "https://contentful-atercatus-blog.myleelee2053.now.sh/posts/68nKGwZFvLbLwiQOGP6O6s/where-to-store-jwt",
+              "https://contentful-atercatus-blog.now.sh/posts/68nKGwZFvLbLwiQOGP6O6s/where-to-store-jwt",
           },
         ],
       },
@@ -224,12 +224,11 @@ export const PROJECT_DATA: ProjectData = {
   A_PLANET: {
     META: {
       TITLE: "A’s PLANET RESUME",
-      PERIOD: "2020.05.23 ~ 2020.05.30",
-      STACKS: ["next", "figma", "vercel"],
+      PERIOD: "2020.05.23 ~ 2020.05.29",
+      STACKS: ["react", "figma", "vercel"],
       SUMMARIES: [
-        `피그마를 이용해 정적 디자인을 구성한 후, 
-      프로토파이를 이용하여 인터랙션을 구성했습니다. 
-      해당 파일의 소스는 아래 상세설명 카드에 존재합니다.`,
+        `현재 보고 계시는 페이지로 저의 프로젝트 경험과 활동들에 대한 간략한
+        소개를 하기 위해 제작했습니다. 부족하지만 봐주셔서 감사합니다.`,
       ],
       LINKS: [
         {
@@ -241,12 +240,22 @@ export const PROJECT_DATA: ProjectData = {
     },
     DETAILS: [
       {
-        SUBTITLE: "Protopie 이용",
-        DESCRIPTION: `Protopie 를 이용해 인터렉션 설계`,
-        IMAGE_SRC: "/images/autonomous-rc-car/rc-arch.jpg",
+        SUBTITLE: "Figma를 이용하여 디자인",
+        DESCRIPTION: `Figma를 이용하여 현재 페이지를 구성해봤습니다. 메인의 경우 모바일, 태블릿, 데스크탑, 넓은 데스크탑
+         총 4개의 화면을 구성했고, 나머지 부분은 디자인에서 크게 변동사항이 없이 각 요소의 크기만 변경되었기 때문에
+         별도의 디자인을 작성하지 않았습니다.`,
+        IMAGE_SRC: "/images/a-planet/figma.png",
         APPENDICES: [
-          { NAME: "figma 소스", LINK: "/" },
-          { NAME: "protopie 소스", LINK: "/" },
+          {
+            NAME: "figma 소스",
+            LINK:
+              "https://drive.google.com/drive/folders/1kldIIoJCjwTOlGiAhADfWeSo97TzAs_y?usp=sharing",
+          },
+          // {
+          //   NAME: "protopie 소스",
+          //   LINK:
+          //     "https://drive.google.com/drive/folders/1GhuCa8-Np62jsoc3plowTevBLDNYyC6k?usp=sharing",
+          // },
         ],
       },
     ],
@@ -297,7 +306,7 @@ export const TIMELINE_DATA: { [key: string]: TimelineData } = {
       {
         NAME: "NAVER 인턴십 후기 포스팅",
         LINK:
-          "https://contentful-atercatus-blog.myleelee2053.now.sh/posts/Q5mi6RtRWbSuOeklJskgq/naver-internship-review",
+          "https://contentful-atercatus-blog.now.sh/posts/Q5mi6RtRWbSuOeklJskgq/naver-internship-review",
       },
     ],
   },
