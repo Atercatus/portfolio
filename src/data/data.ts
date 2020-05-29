@@ -234,7 +234,7 @@ export const PROJECT_DATA: ProjectData = {
         {
           HREF: "https://github.com/Atercatus/portfolio",
           NAME: "저장소 방문",
-          SVG: "exit",
+          SVG: "github",
         },
       ],
     },
@@ -251,14 +251,27 @@ export const PROJECT_DATA: ProjectData = {
             LINK:
               "https://drive.google.com/drive/folders/1kldIIoJCjwTOlGiAhADfWeSo97TzAs_y?usp=sharing",
           },
-          // {
-          //   NAME: "protopie 소스",
-          //   LINK:
-          //     "https://drive.google.com/drive/folders/1GhuCa8-Np62jsoc3plowTevBLDNYyC6k?usp=sharing",
-          // },
         ],
       },
     ],
+  },
+
+  PROTOPIE_RESUME: {
+    META: {
+      TITLE: "PROTOPIE RESUME",
+      PERIOD: "2020.05.29 ~ 2020.05.30",
+      STACKS: ["protopie"],
+      SUMMARIES: [`프로토파이로 간략한 자기소개서를 만들어봤습니다.`],
+      LINKS: [
+        {
+          HREF:
+            "https://drive.google.com/drive/folders/1GhuCa8-Np62jsoc3plowTevBLDNYyC6k?usp=sharing",
+          NAME: "소스 보기",
+          SVG: "exit",
+        },
+      ],
+    },
+    DETAILS: [],
   },
 };
 
