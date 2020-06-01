@@ -93,11 +93,11 @@ export const PROJECT_DATA: ProjectData = {
 
   AUTONOMOUS_RC_CAR: {
     META: {
-      TITLE: "Auto Driving Rasberry-pi RC Car",
+      TITLE: "Auto Driving Raspberry-pi RC Car",
       PERIOD: "2018.12 ~ 2019.05",
       STACKS: ["python"],
       SUMMARIES: [
-        `Rasberry-pi를 이용해 자율주행 RC Car 를 제작했습니다. 
+        `Raspberry-pi를 이용해 자율주행 RC Car 를 제작했습니다. 
       NVIDIA 의 End to Learning for Self-Driving Cars 에 소개된 모델을 튜닝후에 적용했습니다.
       시뮬레이션을 제작 후에 해당 모델을 실제 RC Car에 적용했습니다.`,
       ],
