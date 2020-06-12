@@ -1,15 +1,31 @@
-import React, { FunctionComponent } from "react";
-import { PROJECT_DATA } from "../../data/data";
+import React, { FunctionComponent, useEffect, useState } from "react";
+import { ProjectData } from "../../vendor/data-adaptor";
 import * as S from "./styles";
 import ProjectMeta from "../../components/project-meta";
 import ProjectDetailCard from "../../components/project-detail-card";
 import { PAGE_INDEX } from "../../common/constants";
 import { SUBTITLE_COLOR } from "../../common/constants/palette";
+import { getData } from "../../vendor/fetcher";
+import ROUTES from "../../common/constants/routes";
 
 const ProjectList: FunctionComponent = () => {
+  const [projectData, setProjectData] = useState<ProjectData>({});
+
+  useEffect(() => {
+    async function fetchProjectData() {
+      const newProjectData = await getData(ROUTES.PROJECT_DETAIL, {
+        method: "GET",
+      });
+
+      setProjectData(newProjectData);
+    }
+
+    fetchProjectData();
+  }, []);
+
   return (
     <S.ProjectListRoot>
-      {Object.entries(PROJECT_DATA).map(([projectName, projectData]) => {
+      {Object.entries(projectData).map(([projectName, projectData]) => {
         const { META: meta, DETAILS: details } = projectData;
         const {
           TITLE: title,

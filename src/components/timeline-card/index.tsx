@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import * as S from "./styles";
-import { APPENDIX } from "../../data/data";
+import { APPENDIX } from "../../vendor/data-adaptor";
 import LinkLabel from "../link-label";
 
 interface TimelineCardProp {

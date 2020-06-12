@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import * as S from "./styles";
 import useIntersectionObserverAPI from "../../lib/hooks/use-intersection-observer-api";
-import { APPENDIX } from "../../data/data";
+import { APPENDIX } from "../../vendor/data-adaptor";
 
 interface ProjectDetailCardProps {
   subtitleColor: string;
