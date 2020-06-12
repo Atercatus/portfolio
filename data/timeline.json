@@ -1,0 +1,35 @@
+{
+  "BOOSTCAMP_CHALLENGE": {
+    "PERIOD": "2019-07-15 ~ 2019-08-09",
+    "ACTIVITY": "부스트캠프 2019 챌린지",
+    "HOST": "커넥트재단",
+    "ACTIVITY_DESCRIPTIONS": [
+      "1. 소프트웨어 공학 지식을 요구하는 문제를 매일 정해진 시간 내에 JavaScript ES6 기반 코드로 해결 (비동기, 객체지향, 자료구조, DVCS, 아키텍처, 네트워크 등)",
+      "2. 매주 금요일 다른 프로젝트를 이어받아 개발하는 ‘릴레이 프로젝트’ 를 수행"
+    ]
+  },
+  "BOOSTCAMP_MEMBERSHIP": {
+    "PERIOD": "2019-08-26 ~ 2019-12-20",
+    "ACTIVITY": "부스트캠프 2019 멤버십",
+    "HOST": "커넥트재단",
+    "ACTIVITY_DESCRIPTIONS": [
+      "1. 개별 클론 코딩 프로젝트를 통한 웹 풀스택 지식 학습 회원가입 및 로그인 구현 Amazon 쇼핑슬라이드(캐러셀 UI) 구현 Github Project형 todo 어플리케이션 구현 Airbnb 검색 페이지 구현",
+      "2. React, Node.js 기반의 웹서비스를 기획하여 팀  프로젝트 수행 맡은 기능에 대해 프론트엔드, 백엔드 모두  개발"
+    ]
+  },
+
+  "NAVER_INTERN": {
+    "PERIOD": "2020-02-03 ~ 2020-03-27",
+    "ACTIVITY": "부스트캠프 채용연계형 인턴십",
+    "HOST": "NAVER apollo",
+    "ACTIVITY_DESCRIPTIONS": [
+      "8주간의 프로젝트 진행, 그 과정에서 프로처럼 일하는 법  학습"
+    ],
+    "APPENDICES": [
+      {
+        "NAME": "NAVER 인턴십 후기 포스팅",
+        "LINK": "https://contentful-atercatus-blog.now.sh/posts/Q5mi6RtRWbSuOeklJskgq/naver-internship-review"
+      }
+    ]
+  }
+}
