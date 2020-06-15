@@ -24,7 +24,7 @@
       },
       {
         "SUBTITLE": "서버리스 배포",
-        "DESCRIPTION": "API 서버는 Lambda와 API Gateway를 이용해 배포되었습니다. API 서버에서 외부 API call 을  할 수 있게 NAT Instance 를 구축했습니다. API 서버는 프론트엔드는 serverless 프레임워크를 사용했습니다. Lambda를 호출하여 cloudfront 내의 소스를 갱신하는  방식입니다.",
+        "DESCRIPTION": "API 서버는 Lambda와 API Gateway를 이용해 배포되었습니다. API 서버에서 외부 API call 을  할 수 있게 NAT Instance 를 구축했습니다. 프론트엔드는 serverless 프레임워크를 사용했습니다. Lambda를 호출하여 cloudfront 내의 소스를 갱신하는  방식입니다.",
         "IMAGE_SRC": "/images/wedev/wedev-aws-arch.png"
       },
       {
